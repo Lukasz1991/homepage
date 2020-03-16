@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link rel="stylesheet" href="background.css" type="text/css">
+</head>
+
+<body class="page">
+    <header class="site-header">
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a class="navigation__link" href="index.html">"Strona główna"</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="podstrona.html">"Podstrona"</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="kolejna-podstrona.html">"Kolejna Podstrona"</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="top" class="main">
+        <header>
+            <h1 class="heading">
+                Łukasz Stypułkowski - Strona domowa
+            </h1>
+        </header>
+
+        <section class="about">
+            
+            <h2 class="about__header"> Kim jestem?</h2>
+            <p class="about__paragraph">TEKST O <b>MNIE</b> ...
+                <img src="obrazek1.jpg" alt="to ja" class="about__photo"/> 
+                <br>
+                <a class="about__link" href="#diary">Wejdź do pamietniczka</a>
+            </p>
+            <p class ='about__paragraph about__paragraph--color about__paragraph--js'>Testuję BEM</p>
+            <p class ='about__paragraph about__paragraph--color about__paragraph--js2'></p>
+
+            <section class="about__hobby">
+                <ul>
+                    <li>Podróże</li>
+                    <li>Gotowanie</li>
+                    <li>Spacery</li>
+                    <li>Nauka
+                        <ol>
+                            <li>Otwórz przeglądarkę</li>
+                            <li>wpisz cotenfrondent.pl</li>
+                            <li>wciśnij enter</li>
+                        </ol>
+                    </li>
+                </ul>
+            </section>
+            <section class="about__plan">
+                <ol>
+                    <li>Otwórz przeglądarkę</li>
+                    <li>wpisz cotenfrondent.pl</li>
+                    <li>wciśnij enter</li>
+                </ol>
+            </section>
+
+        </section>
+
+        <section id="diary">
+            <h2 class="diary__header">Pamiętniczek</h2>
+           
+            <section class="day">
+                <h3 class="day__header"> Jak stworzyć prawidłowego htmla?</h3>
+                <p class="day__paragraph">TEKST JAK STWORZYĆ PRAWIDŁOWEGO HTML-A ... <br>
+                <a class="day__link" href="podstrona.html">"Przejść do artykułu o pisaniu html"</a>
+                </p>
+            </section>
+
+            <section class="day">
+                <div class="day__box">Co ten frontend</div>
+                <h3 class= "day__header"> Czy nagrywanie szkolenia to prosta sprawa?</h3>
+                <p class="day__paragraph"> TEKST O NAGRYWANIU SZKOLENIA ... </p>
+            </section>
+
+            <section class="day">
+                <h3 class= "day__header"> Czy nagrywanie szkolenia to prosta sprawa?</h3>
+                <p class="day__paragraph"> TEKST O NAGRYWANIU SZKOLENIA ... </p>
+            </section>
+
+            <section class="day">
+                <h3 class= "day__header"> Czy nagrywanie szkolenia to prosta sprawa?</h3>
+                <p class="day__paragraph"> TEKST O NAGRYWANIU SZKOLENIA ... </p>
+            </section>
+
+            <section class="day">
+                <h3 class= "day__header"> Czy nagrywanie szkolenia to prosta sprawa?</h3>
+                <p class="day__paragraph"> TEKST O NAGRYWANIU SZKOLENIA ... </p>
+            </section>
+        </section>
+        <section class="glossary">
+            <dl>
+                <dt>CSS:</dt>
+                <dd>style to co wiedzisz jak jest ładne albo brzydkie</dd>
+                <dt>HTML:</dt>
+                <dd>treść + szkielet strony</dd>
+            </dl>
+        </section>
+        <section class="data">
+            <caption>Oceny z pierwszego sepestru z WTF</caption>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Imię nazwisko</th>
+                        <th>Cena</th>
+                        <th>Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <td>Łukasz Stypułkowski</td>
+                    <td>3</td>
+                    <td>03.04.2019</td>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="#top" class="footer__top">Na górę</a>
+        Strona domowa Łukasza Stypułkowskiego, szkolenie WTF.
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
